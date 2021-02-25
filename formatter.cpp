@@ -3,9 +3,9 @@
 #include <iostream>
 #include <fstream>
 
-void format(const std::vector<Schedule>& schedules, int fileName)
+void format(const std::vector<Schedule>& schedules, const std::string& fileName)
 {
-    std::ofstream out("output.txt");
+    std::ofstream out(fileName);
 
     int A = schedules.size();
     out << A << std::endl;

@@ -10,4 +10,4 @@ struct Schedule
     std::vector<std::pair<std::string, int>> streetAndTime;
 };
 
-void format(const std::vector<Schedule>& schedules, int fileName);
+void format(const std::vector<Schedule>& schedules, const std::string& fileName);
